@@ -1,0 +1,208 @@
+body {
+    background-color: #222;
+    color: whitesmoke !important;
+}
+
+#header {
+    background-color: #333 !important;
+    color: whitesmoke;
+}
+
+#menu,
+.ic-app-header__menu-list-item {
+    background-color: #222 !important;
+    color: whitesmoke !important;
+}
+
+#global_nav_calendar_link,
+#global_nav_courses_link,
+#global_nav_conversations_link,
+#global_nav_dashboard_link,
+#global_nav_profile_link .menu-item__text,
+#global_nav_groups_link,
+.ic-icon-svg--navtoggle {
+    filter: invert(1);
+}
+
+.ic-app-header__menu-list-link:hover,
+.ic-app-header__menu-list-link:focus {
+    background-color: darkgray !important;
+}
+
+.discussion-entries {
+    background-color: #444;
+}
+
+.entry > article {
+    background-color: #333;
+}
+
+.discussion,
+span,
+.icon-like,
+.icon-replied,
+.icon-settings,
+.standalone-icon,
+.admin-links,
+.icon-mini-arrow,
+i,
+p,
+.content h3,
+.content li,
+.content h2 {
+    color: whitesmoke !important;
+}
+
+.ic-app-header__logomark {
+    background-color: #111 !important;
+}
+
+.content {
+    background-color: #222 !important;
+}
+
+.ic-DashboardCard,
+.ic-DashboardCard__header,
+.ic-DashboardCard__header_content,
+.ic-DashboardCard__action-container,
+.ic-Dashboard-header__title,
+.ic-Dashboard-header__actions,
+.ic-Dashboard-header__layout,
+.ic-notification__content,
+.stream_header:hover,
+.stream-details tr:hover {
+    background-color: #555;
+}
+
+.date:hover {
+    background-color: #444;
+}
+
+div.guide {
+    background-color: #222 !important;
+    border: 1px solid white;
+}
+
+.discussion-title,
+.author,
+article a,
+#footer-links a {
+    color: darkgreen !important;
+}
+
+ul > li > a {
+    color: azure !important;
+}
+
+.ReactTray__Content ReactTray__Content--after-open,
+.ReactTrayPortal,
+.ReactTray__Content {
+    background: #444 !important;
+}
+
+ul > li > a:hover,
+.list-view > ul > li > a:hover,
+.list-view > ul > li > a:focus,
+.list-view > nav > ul > li > a:hover,
+.list-view > nav > ul > li > a:focus {
+    background: #111 !important;
+}
+
+.announcement_cog {
+    background-color: gray !important;
+}
+
+.content-item.guide.bg-roxo {
+    background-color: #333
+}
+
+.module-sequence-footer-content,
+.headerBar,
+.reply-box-container,
+.personagem {
+    filter: invert(90%) !important;
+}
+
+.no-pages-cell {
+    background-color: #333;
+}
+
+.no-pages-cell a,
+.user_name {
+    color: darkgreen;
+}
+
+.user_name:hover {
+    color: darkgray;
+}
+
+.btn,
+#add-announcement {
+    color: whitesmoke !important;
+    background-color: #333 !important;
+}
+
+.ui-icon,
+.header .icon {
+    filter: invert(1)
+}
+
+#breadcrumbs {
+    background-color: #222 !important;
+}
+
+#breadcrumbs > ul > li + li::before {
+    filter: invert(100%) !important;
+}
+
+.ui-menu-carat,
+.hide-if-collapsed > a {
+    /*background-color: green !important;*/
+    color: whitesmoke !important;
+}
+
+.al-trigger {
+    background-color: #111 !important;
+}
+
+.al-options {
+    background-color: #222 !important;
+}
+
+.total-items,
+.new-and-total-badge .total-items,
+.planejamento-estudo > p:nth-child(6) > a:nth-child(4) {
+    background-color: #111;
+    color: white;
+}
+
+.header-bar,
+.container h2 {
+    background-color: #222;
+}
+
+.container h2,
+.container h3 {
+    color: whitesmoke;
+}
+
+.planejamento-estudo {
+    background-color: #551099;
+}
+
+html {
+    scrollbar-color: #666 #333;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
