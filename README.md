@@ -19,3 +19,10 @@ O método 1 é o recomendado, e também o método mais comum para instalar temas
 
 2 ) Assim como no método, instale a extensão Stylus, e depois acesse este link: https://userstyles.org/styles/180767/univesp-ava-tema-escuro e clique no botão "Install style"
 
+
+# Como instalar as atualizações do tema 
+Clicar no ícone S da extensão Stylus na barra do navegador, em seguida em "Manage". Uma nova aba será aberta:
+![Atualização etapa 1](https://i.imgur.com/egDXUAP.png)
+
+Em seguida, uma nova aba será aberta. Na barra lateral à esquerda, clicar em "Check all stylus for updates". Surgirá um botão ao lado do tema do AVA, e abaixo dele estará escrito "Install update". Clicando nele, a atualização será feita, e você terá a versão mais recente, com todas as melhorias.
+![Atualização etapa 2](https://i.imgur.com/UgvJmdg.png)
