@@ -1,3 +1,4 @@
+@-moz-document domain("cursos.univesp.br") {
 body {
     background-color: #222;
     color: whitesmoke !important;
@@ -13,6 +14,7 @@ body {
     background-color: #222 !important;
     color: whitesmoke !important;
 }
+
 
 #global_nav_calendar_link,
 #global_nav_courses_link,
@@ -49,7 +51,8 @@ i,
 p,
 .content h3,
 .content li,
-.content h2 {
+.content h2,
+figcaption {
     color: whitesmoke !important;
 }
 
@@ -205,4 +208,377 @@ html {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+}
+
+@-moz-document url-prefix("https://cursos.univesp.br/conversations") {
+.panel,
+#type-filter-bs,
+.dropdown-menu {
+    background-color: #444 !important;
+}
+
+.active {
+    background-color: #888 !important;
+}
+}
+
+@-moz-document url-prefix("https://cursos.univesp.br/groups") {
+a {
+    color: darkgreen
+}
+
+a:hover {
+    color: #109910;
+}
+}
+
+@-moz-document url-prefix("https://cursos.univesp.br/calendar") {
+.fc-axis,
+#context-list,
+#undated_events_list,
+#undated-events,
+.ui-draggable {
+    background-color: #333 !important;
+}
+
+.fc-agendaWeek-view > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > div:nth-child(1) > div:nth-child(1),
+.fc-bg {
+    background-color: #333 !important;
+}
+
+#edit_calendar_event_form_holder,
+#ui-id-6,
+div.ui-dialog:nth-child(5) > div:nth-child(1),
+#ui-id-4 {
+    background-color: #222;
+    color: whitesmoke
+}
+
+.fc-day-number:hover,
+#context-list .context_list_context:hover {
+    background-color: #555 !important
+}
+
+
+.datetime_suggest {
+    color: whitesmoke
+}
+
+#content,
+.agenda-container {
+    background-color: #333 !important;
+    color: whitesmoke !important;
+}
+
+.dialog_opener {
+    color: darkgreen;
+}
+
+#minical {
+    background-color: #111;
+    color: whitesmoke;
+}
+
+#minical .fc-today {
+    color: tomato !important
+}
+
+#minical .fc-past {
+    color: #999
+}
+
+#minical .fc-future {
+    color: #888
+}
+
+.fc-day {
+    background-color: #222;
+    color: whitesmoke !important;
+}
+
+.fc-day-header {
+    color: whitesmoke !important;
+}
+
+.fc-today {
+    background-color: #333 !important;
+}
+
+.fc-other-month {
+    background-color: #444 !important;
+}
+}
+
+@-moz-document url-prefix("https://apps.univesp.br/manual-do-aluno/"), url-prefix("https://apps.univesp.br/tutoriais-univesp/tutoriais/foruns/"), url-prefix("https://apps.univesp.br/tutoriais-univesp/tutoriais/acesso-ao-ava/") {
+body,
+#sidebar {
+    background-color: #222;
+    color: whitesmoke;
+}
+
+div.topico:nth-child(2),
+div.topico:nth-child(6),
+div.topico:nth-child(11) {
+    background-color: #101055;
+}
+
+div.topico:nth-child(4),
+div.topico:nth-child(9),
+div.topico:nth-child(15) {
+    background-color: #444;
+}
+
+div.topico:nth-child(4) > h2:nth-child(1) {
+    text-shadow: 1px 3px 5px black;
+}
+
+.container {
+    background-color: #101020;
+}
+
+#sidebar a:hover,
+#sidebar a:focus,
+#sidebar a.ativo {
+    background-color: #555;
+}
+
+html {
+    scrollbar-color: #666 #333;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+}
+
+@-moz-document url-prefix("https://apps.univesp.br/tutoriais-univesp/") {
+body,
+.card-titulo {
+    background-color: #333;
+    color: whitesmoke;
+}
+
+.card-titulo:hover {
+    background-color: #555;
+}
+
+.owl-prev,
+.owl-next {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: tomato !important;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #222;
+}
+
+main h1 {
+    color: lightblue;
+}
+
+.visualizacao i {
+    color: whitesmoke;
+}
+
+html {
+    scrollbar-color: #666 #333;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+}
+
+@-moz-document url-prefix("https://apps.univesp.br/manual-do-aluno/calendario-academico/") {
+body {
+    background-color: #222 !important;
+    color: whitesmoke !important;
+}
+
+.blocks {
+    background-color: #333 !important;
+}
+
+html {
+    scrollbar-color: #666 #333;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+}
+
+@-moz-document url-prefix("https://cursos.univesp.br/courses/2928/pages/aprofundando-o-tema-semana-1?module_item_id=239233") {
+.container > ul > li {
+    color: whitesmoke !important;
+}
+html {
+    scrollbar-color: #666 #333;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+}
+
+@-moz-document url-prefix("https://cursos.univesp.br/courses/2928/pages/desafio-semana-1?module_item_id=235715") {
+.content > div:nth-child(3) {
+    background-color: #222 !important;
+}
+
+html {
+    scrollbar-color: #666 #333;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+}
+
+@-moz-document url-prefix("https://cursos.univesp.br/courses/2928/grades"), regexp("https://cursos.univesp.br/courses/.*/grades") {
+#content > h2:nth-child(3) {
+    color: whitesmoke;
+}
+
+#ui-id-1,
+.ui-tabs .ui-tabs-nav li.ui-tabs-active,
+.ui-tabs .ui-tabs-nav li.ui-tabs-active.ui-state-hover,
+.ui-tabs .ui-tabs-nav li.ui-tabs-active:hover {
+    background: #444 !important;
+}
+}
+
+@-moz-document regexp("https://cursos.univesp.br/courses/.*/assignments") {
+label.ui-button:nth-child(4) {
+    background-color: #444 !important
+}
+
+label.ui-button:nth-child(2) {
+    background-color: #111;
+}
+
+.item-group-container {
+    background-color: #222;
+}
+
+.ig-row {
+    background-color: #333 !important;
+    color: whitesmoke !important;
+}
+
+.ig-title,
+.ig-header-title,
+.element_toggler {
+    color: whitesmoke !important;
+}
+
+.btn.active,
+.btn.Button--active,
+.btn.ui-button.ui-state-active,
+.ui-progressbar .btn.ui-button.ui-widget-header,
+.Button.active,
+.active.ui-button,
+.Button.Button--active,
+.Button--active.ui-button,
+.ui-button.ui-state-active,
+.ui-progressbar .ui-button.ui-widget-header,
+.ui-button.ui-state-active.ui-state-hover {
+    background: #444 !important;
+}
+
+.ui-button.ui-state-active:hover {
+    background: #222 !important;
+}
+}
+
+@-moz-document regexp("https://cursos.univesp.br/courses/.*/modules") {
+#context_modules,
+#context_modules_sortable_container {
+    background-color: #222;
+}
+
+.ig-row {
+    background-color: #333 !important;
+    color: whitesmoke !important;
+}
+
+.ig-title {
+    color: whitesmoke !important;
+}
+
+.muted > a:nth-child(1) {
+    color: darkgreen;
+}
+}
+
+@-moz-document url-prefix("https://cursos.univesp.br/courses/2928/pages/semana-1") {
+div.text:nth-child(3) > div:nth-child(2) > div:nth-child(3) {
+    background-color: #222 !important;
+}
+
+html {
+    scrollbar-color: #666 #333;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 }
