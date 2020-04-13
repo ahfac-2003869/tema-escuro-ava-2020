@@ -7,6 +7,7 @@ body {
 #header {
     background-color: #333 !important;
     color: whitesmoke;
+    /* background: #333 */
 }
 
 #menu,
@@ -208,6 +209,25 @@ html {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+}
+
+@-moz-document regexp("https://cursos.univesp.br/courses/.*/quizzes/.*/take") {
+#questions {
+    filter: invert(100%);
+    color: black !important;
+}
+
+#questions p {
+    color: black !important;
+}
+
+.question .text .answers .answer .answer_label, .question .text .question_text {
+    color: black !important;
+}
+
+.content-item-body, ol {
+    color: whitesmoke !important;
 }
 }
 
